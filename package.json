@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "next client dev",
+    "build": "next client build",
+    "start": "next client start",
     "lint": "next lint"
   },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+},
   "dependencies": {
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.13",
